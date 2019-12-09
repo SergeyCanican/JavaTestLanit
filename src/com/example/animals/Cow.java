@@ -11,11 +11,11 @@ public class Cow implements Animals {
 
     @Override
     public String toString() {
-        return "Cow name - " + name;
+        return name;
     }
 
     public Cow() {
-        name = "no-name";
+        name = "Безымянная";
     }
 
     public Cow(String name) {
@@ -24,7 +24,7 @@ public class Cow implements Animals {
 
     @Override
     public void makeSound() {
-        System.out.println("Myy");
+        System.out.println("Myy-Муу");
     }
 
     @Override

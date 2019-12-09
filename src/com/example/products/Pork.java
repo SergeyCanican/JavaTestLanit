@@ -5,7 +5,7 @@ public class Pork implements Products {
 
     @Override
     public String toString() {
-        return String.format("Pork %d Kilogramms", volume);
+        return String.format("Свинины %d килограмма(ов)", volume);
     }
 
     public Pork(int volume) {

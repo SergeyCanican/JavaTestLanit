@@ -15,17 +15,17 @@ public class Pig implements Animals {
     }
 
     public Pig() {
-        name = "no-name";
+        name = "Безымянная";
     }
 
     @Override
     public String toString() {
-        return "Pig name - " + name;
+        return "Имя свинки -  " + name;
     }
 
     @Override
     public void makeSound() {
-        System.out.println("Hru-Hru");
+        System.out.println("Хрю-хрю");
     }
 
     @Override

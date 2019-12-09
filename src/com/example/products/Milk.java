@@ -9,6 +9,6 @@ public class Milk implements Products {
 
     @Override
     public String toString() {
-        return String.format("Milk %d liters", volume);
+        return String.format("Молока %d литра(ов)", volume);
     }
 }

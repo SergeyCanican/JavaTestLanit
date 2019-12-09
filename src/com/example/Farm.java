@@ -17,8 +17,8 @@ public class Farm {
     public List<Products> getProduct() {
         List<Products> products = new ArrayList<>();
         for (Animals animal: animalsList) {
-           Products product =  animal.getProduct();
-            System.out.println(animal + "gave us" + product);
+            Products product =  animal.getProduct();
+            System.out.println(animal + " дала нам " + product);
             products.add(product);
         }
         return products;
